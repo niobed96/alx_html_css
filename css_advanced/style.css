@@ -159,9 +159,14 @@ nav a{
     font-size:1.5rem;
     width: 800px;
     margin-bottom:0px;
+    line-height: 2em;
+}
+.content i{
+    font-weight: 300;
+    font-style: italic;
 }
 .real p{
-    margin-top:-15px;
+    margin-top:15px;
 }
 .content{
     display: flex;
