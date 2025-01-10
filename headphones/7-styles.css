@@ -130,8 +130,12 @@ header{
     justify-content: center;
     align-items: center;
     background-color:var(--color-one);
-    margin-top: 15em;
+    margin-top: 5em;
     margin-bottom: 6em;
+    flex-direction: column;
+}
+.description h1{
+    margin-bottom:2em;
 }
 .description p{
     text-align: center;
@@ -161,13 +165,17 @@ header{
 }
 .feature svg{
     fill:var(--color-main);
+    margin-bottom: 2em;
     width: 10em;
     height:10em;
+}
+.feature h2{
+    font-size:1.25em;
 }
 .feature p{
     text-align: center;
     font-family:300;
-    margin-top:3em;
+    margin-top:1em;
     line-height: 2em;
     margin-bottom:6em ;
 }
@@ -184,9 +192,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:15em;
+    margin-top:5em;
     margin-bottom:5em;
     color:var(--color-one);
+    flex-direction: column;
+}
+.description-two h1{
+    margin-bottom: 2em;
 }
 .description-two p{
     text-align: center;
@@ -310,7 +322,7 @@ footer p{
     margin-bottom: 1em;
 
 }
-@media(max-width:1000px) and (min-width:490px){
+@media(max-width:1000px) and (min-width:480px){
     *{
         margin: 0;
         padding: 0;
@@ -333,6 +345,7 @@ footer p{
         margin:auto;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
     .feature{
         justify-content: center;
@@ -348,6 +361,7 @@ footer p{
         margin:0 auto;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
     .percentage{
         display: flex;

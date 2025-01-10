@@ -128,8 +128,12 @@ header{
     justify-content: center;
     align-items: center;
     background-color:var(--color-one);
-    margin-top: 15em;
+    margin-top:5em;
     margin-bottom: 6em;
+    flex-direction: column;
+}
+.description h1{
+    margin-bottom: 2em;
 }
 .description p{
     text-align: center;
@@ -180,6 +184,10 @@ header{
     margin-top:15em;
     margin-bottom:5em;
     color:var(--color-one);
+    flex-direction: column;
+}
+.description-two h1{
+    margin-bottom: 2em;
 }
 .description-two p{
     text-align: center;
@@ -219,7 +227,7 @@ header{
     margin-top:1em;
     margin-bottom:0em;
 }
-@media(max-width:1000px) and (min-width:490px){
+@media(max-width:786px) and (min-width:480px){
     *{
         margin: 0;
         padding: 0;

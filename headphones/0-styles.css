@@ -117,7 +117,7 @@ header{
     font-size: 1rem;
     margin-bottom: 8em;
 }
-@media(max-width:1000px) and (min-width:490px){
+@media(max-width:768px) and (min-width:480px){
     *{
         margin: 0;
         padding: 0;
